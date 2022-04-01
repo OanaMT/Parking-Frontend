@@ -39,24 +39,24 @@ export class AppComponent implements OnInit {
     console.log(pinstates);
     if (this.parkingSpots) {
       if (pinstates[0].pin1 === 1) {
-        this.parkingSpots[0].color = '#D34F4F';
-      } else {
         this.parkingSpots[0].color = '#7A9B76';
+      } else {
+        this.parkingSpots[0].color = '#D34F4F';
       }
       if (pinstates[0].pin2 === 1) {
-        this.parkingSpots[1].color = '#D34F4F';
-      } else {
         this.parkingSpots[1].color = '#7A9B76';
+      } else {
+        this.parkingSpots[1].color = '#D34F4F';
       }
       if (pinstates[0].pin3 === 1) {
-        this.parkingSpots[2].color = '#D34F4F';
-      } else {
         this.parkingSpots[2].color = '#7A9B76';
+      } else {
+        this.parkingSpots[2].color = '#D34F4F';
       }
       if (pinstates[0].pin4 === 1) {
-        this.parkingSpots[3].color = '#D34F4F';
-      } else {
         this.parkingSpots[3].color = '#7A9B76';
+      } else {
+        this.parkingSpots[3].color = '#D34F4F';
       }
     }
   }
