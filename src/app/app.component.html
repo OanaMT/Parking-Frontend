@@ -1,5 +1,13 @@
 <div class="parking-container">
-  <mat-card *ngFor="let parkingspot of parkingSpots" [style.background-color]="parkingspot.color">
+  <mat-card
+    *ngFor="let parkingspot of parkingSpots"
+    [style.background-color]="parkingspot.color"
+  >
     <h1>PARKING SPOT</h1>
   </mat-card>
+</div>
+<div class="button-container">
+  <button mat-raised-button (click)="checkAvailableParkingSpots()">
+    Check Available Parking Spots
+  </button>
 </div>
